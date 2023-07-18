@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="TextButtonMainStyle">
+		<item name="android:textColor">@color/primary_light</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+
+	<style name="ButtonMainStyle">
+		<item name="android:backgroundTint">@color/primary_light</item>
+		<item name="cornerRadius">15dp</item>
+		<item name="android:textAppearance">@style/TextButtonMainStyle</item>
+	</style>
+</resources>

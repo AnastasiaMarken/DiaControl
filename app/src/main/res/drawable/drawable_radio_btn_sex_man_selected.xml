@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<shape>
+			<size android:height="45dp" android:width="90dp"/>
+			<gradient
+				android:angle="0"
+				android:type="linear"
+				android:endColor="@color/primary_light"
+				android:startColor="@color/purple" />
+			<corners android:radius="50dp"/>
+		</shape>
+	</item>
+	<item
+		android:height="35dp"
+		android:width="20.88dp"
+		android:gravity="center"
+		android:drawable="@drawable/ic_sex_man_on"/>
+</layer-list>

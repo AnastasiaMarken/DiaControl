@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".test.TestResultActivity">
+
+	<LinearLayout
+		android:id="@+id/line1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginHorizontal="22dp"
+		android:layout_marginTop="35dp">
+
+		<ImageView
+			android:id="@+id/btn_back"
+			android:layout_width="17dp"
+			android:layout_height="17dp"
+			android:layout_gravity="center_vertical|start"
+			android:clickable="true"
+			android:src="@drawable/ic_back"/>
+
+		<TextView
+			android:id="@+id/question_header"
+			style="@style/textHeader1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical|end"
+			android:text="@string/test_result" />
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/tvResult"
+		style="@style/textTestResult"
+		android:textColor="@color/red_indicator"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/test_result"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/line1"
+		android:layout_marginTop="70dp"
+		android:layout_marginHorizontal="22dp"/>
+
+	<TextView
+		android:id="@+id/tvLevel"
+		style="@style/textHeader3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="22dp"
+		android:text="@string/test_result"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tvResult"
+		android:layout_marginTop="30dp"/>
+
+	<TextView
+		android:id="@+id/tvStatistics"
+		style="@style/textRegular1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="22dp"
+		android:text="@string/test_result"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tvLevel"
+		android:layout_marginTop="25dp"/>
+
+	<TextView
+		style="@style/textHeader3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="22dp"
+		android:layout_marginBottom="20dp"
+		android:text="@string/test_warning"
+		app:layout_constraintBottom_toTopOf="@+id/textView5"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"/>
+
+	<TextView
+		android:id="@+id/textView5"
+		style="@style/textRegular1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="22dp"
+		android:layout_marginBottom="60dp"
+		android:text="@string/test_warning_d"
+		app:layout_constraintBottom_toTopOf="@+id/btn_login"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent" />
+
+	<android.widget.Button
+		android:id="@+id/btn_login"
+		android:layout_width="245dp"
+		android:layout_height="40dp"
+		android:text="@string/login_btn"
+		style="@style/buttonStyle"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginBottom="80dp"/>
+
+	<TextView
+		android:id="@+id/textView2"
+		style="@style/textRegular2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="30dp"
+		android:layout_marginBottom="25dp"
+		android:text="@string/start_str_3"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintStart_toStartOf="parent" />
+
+	<TextView
+		android:id="@+id/btn_singup"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/registration_btn"
+		style="@style/textRegular2"
+		android:clickable="true"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:layout_marginEnd="30dp"
+		android:layout_marginBottom="25dp"/>
+
+	<ImageView
+		android:id="@+id/hideLayer"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:scaleType="fitXY"
+		android:background="@color/hide_color"
+		android:elevation="10dp"
+		android:visibility="gone"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.0"
+		android:clickable="true"/>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/role_selection"
+		android:layout_width="match_parent"
+		android:layout_height="215dp"
+		android:background="@drawable/drawable_selection_box"
+		android:elevation="15dp"
+		android:visibility="gone"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent">
+
+		<TextView
+			style="@style/textRegular1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:text="@string/role_choice"
+			android:textAlignment="center"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<LinearLayout
+			android:id="@+id/role_patient"
+			android:layout_width="114dp"
+			android:layout_height="126dp"
+			android:orientation="vertical"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			android:layout_marginBottom="33dp"
+			android:layout_marginStart="42dp"
+			android:clickable="true">
+			<ImageView
+				android:layout_width="98dp"
+				android:layout_height="85dp"
+				android:layout_gravity="center_horizontal|top"
+				android:scaleType="fitCenter"
+				android:src="@drawable/ic_patient" />
+
+			<TextView
+				style="@style/textRegular1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="22dp"
+				android:text="@string/role_patient"
+				android:textAlignment="center"
+				android:layout_gravity="bottom|center_horizontal"/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/role_doctor"
+			android:layout_width="114dp"
+			android:layout_height="126dp"
+			android:orientation="vertical"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			android:layout_marginBottom="33dp"
+			android:layout_marginEnd="42dp"
+			android:clickable="true">
+
+			<ImageView
+				android:layout_width="98dp"
+				android:layout_height="85dp"
+				android:layout_gravity="center_horizontal|top"
+				android:scaleType="fitCenter"
+				android:src="@drawable/ic_doctor" />
+
+			<TextView
+				style="@style/textRegular1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|center_horizontal"
+				android:layout_marginTop="22dp"
+				android:text="@string/role_doctor"
+				android:textAlignment="center" />
+		</LinearLayout>
+
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<resources>
+	<string name="app_name" translatable="false">DiaControl</string>
+
+	<!--начальная страница-->
+	<string name="start_str_1">Возьмите все под контроль</string>
+	<string name="start_str_2">Позаботьтесь о здоровье\nс личным помощником</string>
+	<string name="start_str_3">Еще нет аккаунта?</string>
+	<string name="login_btn">Войти</string>
+	<string name="registration_btn"><u>Зарегистрироваться</u></string>
+	<string name="test_btn"><u>Определить\nриск заболевания</u></string>
+	<string name="role_choice">Продолжить как</string>
+	<string name="role_doctor">Доктор</string>
+	<string name="role_patient">Пациент</string>
+
+
+	<string name="btn_continue">Продолжить</string>
+
+	<!--тест-->
+	<string name="test_preview">FINDRISC</string>
+	<string name="test_description">FINDRISC – распространённая в Европе\nшкала оценки риска развития диабета,\nразработанная Финской Ассоциацией Диабета.\n\n\nТест позволяет оценить риск развития\nсахарного диабета 2-го типа\nв ближайшие 10 лет с 85% точностью.</string>
+	<string name="test_question">Вопрос:  из 8</string>
+	<string name="test_result">Результат</string>
+	<string name="test_btn_start">Пройти тест</string>
+	<string name="test_imt">ИМТ = (вес в кг) : (рост в метрах)²</string>
+	<string name="test_imt_calc">ИМТ калькулятор</string>
+	<string name="test_imt_height">Ваш рост в см:</string>
+	<string name="test_imt_weight">Ваш вес в кг</string>
+	<string name="test_imt_rasm">кг/м²</string>
+	<string name="test_warning">Внимание!</string>
+	<string name="test_warning_d">Тест не гарантирует точных результатов.\nДля постановки диагноза обязательно\nпроконсультируйтесь с врачом-эндокринологом.</string>
+
+
+</resources>
