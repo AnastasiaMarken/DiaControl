@@ -13,8 +13,7 @@
 <img width="255" alt="image" src="https://github.com/AnastasiaMarken/DiaControl/assets/101307775/bada5388-595f-40fc-b18c-0ed69ad6ddda">
 
 ### Концептуальная карта
-<img width="850" alt="image" src="https://github.com/AnastasiaMarken/DiaControl/assets/101307775/bf737394-bdb8-431e-a2f6-700d9a0ef9f9">
-
+<img width="850" alt="image" src="https://github.com/AnastasiaMarken/DiaControl/assets/101307775/b30089d9-25a7-4dc4-9f13-fb31dc5b2f63">
 
 ### Авторизация/регистрация пользователей
 <img width="200" alt="image" src="https://github.com/AnastasiaMarken/DiaControl/assets/101307775/6890aa6a-b571-4975-ae74-95763529f7da">
